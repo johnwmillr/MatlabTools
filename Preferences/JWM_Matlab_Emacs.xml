@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomKeySet derivedfrom="Windows" modifieddefault="false">
+   <Context id="Global">
+      <Action id="selection-backward">
+         <Stroke code="VK_LEFT" shift="on"/>
+         <Stroke code="VK_KP_LEFT" shift="on"/>
+         <Stroke code="VK_B" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="kill-line">
+         <Stroke code="VK_K" ctrl="on"/>
+      </Action>
+      <Action id="undo">
+         <Stroke alt="on" code="VK_Z"/>
+         <Stroke code="VK_Z" meta="on" sysctrl="on"/>
+         <Stroke alt="on" code="VK_BACK_SPACE"/>
+         <Stroke code="VK_BACK_SPACE" meta="on" sysctrl="on"/>
+         <Stroke code="VK_Z" ctrl="on"/>
+      </Action>
+      <Action id="delete-next">
+         <Stroke code="VK_DELETE"/>
+         <Stroke code="VK_D" ctrl="on"/>
+      </Action>
+      <Action id="open-errored-file"/>
+      <Action id="select-previous-client">
+         <Stroke code="VK_F6" ctrl="on" shift="on"/>
+         <Stroke alt="on" code="VK_OPEN_BRACKET" shift="on"/>
+         <Stroke code="VK_OPEN_BRACKET" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="print"/>
+      <Action id="copy-to-clipboard">
+         <Stroke alt="on" code="VK_C"/>
+         <Stroke code="VK_C" meta="on" sysctrl="on"/>
+         <Stroke code="VK_INSERT" ctrl="on"/>
+         <Stroke code="VK_C" ctrl="on"/>
+      </Action>
+      <Action id="paste-from-clipboard">
+         <Stroke alt="on" code="VK_V"/>
+         <Stroke code="VK_V" meta="on" sysctrl="on"/>
+         <Stroke code="VK_INSERT" shift="on"/>
+         <Stroke code="VK_Y" ctrl="on"/>
+         <Stroke code="VK_V" ctrl="on"/>
+      </Action>
+      <Action id="selection-up">
+         <Stroke code="VK_UP" shift="on"/>
+         <Stroke code="VK_KP_UP" shift="on"/>
+         <Stroke code="VK_P" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="debug-continue">
+         <Stroke code="VK_F5"/>
+         <Stroke alt="on" code="VK_R" shift="on"/>
+         <Stroke code="VK_R" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="caret-forward">
+         <Stroke code="VK_RIGHT"/>
+         <Stroke code="VK_KP_RIGHT"/>
+         <Stroke code="VK_F" ctrl="on"/>
+      </Action>
+      <Action id="print-image"/>
+      <Action id="caret-end">
+         <Stroke code="VK_END"/>
+      </Action>
+      <Action id="save">
+         <Stroke code="VK_S" ctrl="on"/>
+         <Stroke alt="on" code="VK_S"/>
+         <Stroke code="VK_S" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="caret-backward">
+         <Stroke code="VK_LEFT"/>
+         <Stroke code="VK_KP_LEFT"/>
+         <Stroke code="VK_B" ctrl="on"/>
+      </Action>
+      <Action id="find-and-replace">
+         <Stroke alt="on" code="VK_F"/>
+         <Stroke code="VK_F" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="caret-begin-line">
+         <Stroke code="VK_A" ctrl="on"/>
+      </Action>
+      <Action id="caret-end-line">
+         <Stroke code="VK_E" ctrl="on"/>
+      </Action>
+      <Action id="eval-cell">
+         <Stroke code="VK_F8"/>
+         <Stroke alt="on" code="VK_ENTER"/>
+         <Stroke code="VK_ENTER" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="move-track-up">
+         <Stroke code="VK_P" ctrl="on"/>
+      </Action>
+      <Action id="open-new">
+         <Stroke alt="on" code="VK_O"/>
+         <Stroke code="VK_O" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="close-item">
+         <Stroke code="VK_W" ctrl="on"/>
+         <Stroke alt="on" code="VK_W"/>
+         <Stroke code="VK_W" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="next-history-item">
+         <Stroke code="VK_DOWN"/>
+         <Stroke code="VK_KP_DOWN"/>
+         <Stroke code="VK_N" ctrl="on"/>
+      </Action>
+      <Action id="match-beginning"/>
+      <Action id="debug-step">
+         <Stroke code="VK_F10"/>
+         <Stroke alt="on" code="VK_F" shift="on"/>
+         <Stroke code="VK_F" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="set-clear-breakpoint">
+         <Stroke code="VK_F12"/>
+         <Stroke alt="on" code="VK_D" shift="on"/>
+         <Stroke code="VK_D" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="mlint-fix-action"/>
+      <Action id="delete-previous">
+         <Stroke code="VK_BACK_SPACE"/>
+         <Stroke code="VK_BACK_SPACE" shift="on"/>
+         <Stroke code="VK_H" ctrl="on"/>
+      </Action>
+      <Action id="new-mfile">
+         <Stroke alt="on" code="VK_N"/>
+         <Stroke code="VK_N" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="previous-history-item">
+         <Stroke code="VK_UP"/>
+         <Stroke code="VK_KP_UP"/>
+         <Stroke code="VK_P" ctrl="on"/>
+      </Action>
+      <Action id="find-files"/>
+      <Action id="cut-to-clipboard">
+         <Stroke alt="on" code="VK_X"/>
+         <Stroke code="VK_X" meta="on" sysctrl="on"/>
+         <Stroke code="VK_DELETE" shift="on"/>
+      </Action>
+      <Action id="collapse-all-folds"/>
+      <Action id="select-all">
+         <Stroke alt="on" code="VK_A"/>
+         <Stroke code="VK_A" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="exit-matlab"/>
+      <Action id="collapse-all"/>
+      <Action id="comparisons-new">
+         <Stroke alt="on" code="VK_N"/>
+         <Stroke code="VK_N" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="show-preferences">
+         <Stroke alt="on" code="VK_COMMA"/>
+         <Stroke code="VK_COMMA" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="comment">
+         <Stroke code="VK_R" ctrl="on"/>
+         <Stroke alt="on" code="VK_SLASH"/>
+         <Stroke code="VK_SLASH" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="clear-command-window">
+         <Stroke alt="on" code="VK_K"/>
+         <Stroke code="VK_K" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="redo">
+         <Stroke alt="on" code="VK_Y"/>
+         <Stroke code="VK_Y" meta="on" sysctrl="on"/>
+         <Stroke alt="on" code="VK_Z" shift="on"/>
+         <Stroke code="VK_Z" meta="on" shift="on" sysctrl="on"/>
+         <Stroke alt="on" code="VK_BACK_SPACE" shift="on"/>
+         <Stroke code="VK_BACK_SPACE" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="open-selection"/>
+      <Action id="select-next-client">
+         <Stroke code="VK_F6" ctrl="on"/>
+         <Stroke alt="on" code="VK_CLOSE_BRACKET" shift="on"/>
+         <Stroke code="VK_CLOSE_BRACKET" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="dock">
+         <Stroke code="VK_D" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="format">
+         <Stroke code="VK_I" ctrl="on"/>
+         <Stroke alt="on" code="VK_I"/>
+         <Stroke code="VK_I" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="paste-excel-data">
+         <Stroke alt="on" code="VK_V" shift="on"/>
+         <Stroke code="VK_V" meta="on" shift="on" sysctrl="on"/>
+      </Action>
+      <Action id="uncomment">
+         <Stroke code="VK_T" ctrl="on"/>
+         <Stroke alt="on" code="VK_T"/>
+         <Stroke code="VK_T" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="selection-end-line">
+         <Stroke code="VK_END" shift="on"/>
+         <Stroke code="VK_L" ctrl="on"/>
+         <Stroke code="VK_E" ctrl="on" shift="on"/>
+         <Stroke code="VK_L" meta="on" sysctrl="on"/>
+      </Action>
+      <Action id="update-diagram"/>
+      <Action id="selection-forward">
+         <Stroke code="VK_RIGHT" shift="on"/>
+         <Stroke code="VK_KP_RIGHT" shift="on"/>
+         <Stroke code="VK_F" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="evaluate-selection">
+         <Stroke code="VK_F9"/>
+         <Stroke code="VK_ENTER" ctrl="on"/>
+      </Action>
+      <Action id="selection-down">
+         <Stroke code="VK_DOWN" shift="on"/>
+         <Stroke code="VK_KP_DOWN" shift="on"/>
+         <Stroke code="VK_N" ctrl="on" shift="on"/>
+      </Action>
+   </Context>
+   <Context id="EMLEditor">
+      <Action follows="None" id="new-model">
+         <Stroke alt="on" code="VK_N"/>
+         <Stroke code="VK_N" meta="on" sysctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="CommandHistory">
+      <Action id="cut-to-clipboard">
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="SpreadsheetTable">
+      <Action id="cut-to-clipboard">
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="MATLABDesktop">
+      <Action id="cut-to-clipboard">
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="WorkspaceBrowser">
+      <Action follows="None" id="paste-to-workspace">
+         <Stroke alt="on" code="VK_V"/>
+         <Stroke code="VK_V" meta="on" sysctrl="on"/>
+         <Stroke code="VK_INSERT" shift="on"/>
+      </Action>
+   </Context>
+   <Context id="MATLABEditor">
+      <Action id="caret-up">
+         <Stroke code="VK_P" ctrl="on"/>
+      </Action>
+      <Action id="caret-down">
+         <Stroke code="VK_N" ctrl="on"/>
+      </Action>
+      <Action id="cut-to-clipboard">
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="Project">
+      <Action follows="None" id="caret-end"/>
+      <Action id="selection-end"/>
+      <Action follows="None" id="cut-to-clipboard">
+         <Stroke alt="on" code="VK_X"/>
+         <Stroke code="VK_X" meta="on" sysctrl="on"/>
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="FindTools">
+      <Action id="cut-to-clipboard">
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="Explorer">
+      <Action follows="None" id="caret-end"/>
+      <Action id="selection-end"/>
+      <Action follows="None" id="open-selection">
+         <Stroke code="VK_ENTER"/>
+      </Action>
+      <Action id="find-files">
+         <Stroke alt="on" code="VK_F"/>
+         <Stroke code="VK_F" meta="on" sysctrl="on"/>
+      </Action>
+      <Action follows="None" id="cut-to-clipboard">
+         <Stroke alt="on" code="VK_X"/>
+         <Stroke code="VK_X" meta="on" sysctrl="on"/>
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+   <Context id="CommandWindow">
+      <Action id="kill-line"/>
+      <Action follows="None" id="caret-up">
+         <Stroke code="VK_P" ctrl="on"/>
+      </Action>
+      <Action follows="None" id="caret-down">
+         <Stroke code="VK_N" ctrl="on"/>
+      </Action>
+      <Action id="caret-end-line"/>
+      <Action id="caret-backward"/>
+      <Action id="cut-to-clipboard">
+         <Stroke code="VK_X" ctrl="on"/>
+      </Action>
+   </Context>
+</CustomKeySet>
